@@ -1,1 +1,6 @@
 /SimpleApp/.vs
+/SimpleApp/SimpleApp/SimpleApp.Android/obj
+/SimpleApp/SimpleApp/SimpleApp.Android/bin
+/SimpleApp/SimpleApp/SimpleApp.iOS/obj
+/SimpleApp/SimpleApp/SimpleApp.iOS/bin
+*.user
