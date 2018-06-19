@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:simpleapp="clr-namespace:SimpleApp"
              x:Class="SimpleApp.App">
 	<Application.Resources>
     
 	</Application.Resources>
+    <Application.MainPage>
+        <NavigationPage>
+            <x:Arguments>
+                <simpleapp:MainPage />
+            </x:Arguments>
+        </NavigationPage>
+    </Application.MainPage>
 </Application>
